@@ -1,0 +1,10 @@
+Flask
+Pillow
+functions-framework
+google.cloud
+google-cloud-vision
+google-cloud-translate
+google-cloud-storage
+google-cloud-bigquery
+google-cloud-bigquery[opentelemetry]
+opentelemetry-exporter-google-cloud

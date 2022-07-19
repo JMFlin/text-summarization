@@ -1,0 +1,5 @@
+click<=8.0.4
+streamlit==0.76.0
+google-cloud==0.34.0
+google-cloud-storage==1.36.0
+protobuf~=3.19.0

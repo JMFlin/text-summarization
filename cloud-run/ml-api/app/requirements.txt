@@ -1,0 +1,7 @@
+Flask
+torch
+transformers
+sentencepiece
+gunicorn
+google-auth
+google.cloud

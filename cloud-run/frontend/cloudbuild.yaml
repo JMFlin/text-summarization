@@ -1,0 +1,22 @@
+steps:
+
+  # View files
+  - name: 'bash'
+    args: ['ls']
+    id: 'View files in base'
+
+  # View files
+  - name: 'bash'
+    args: ['ls', 'app/']
+    id: 'View files in app'
+
+  # Create image for Flask on Cloud Run
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['build', 
+            '-t', 'eu.gcr.io/$PROJECT_ID/text-summarization/cloud-run/frontend:v8',
+            '-t', 'eu.gcr.io/$PROJECT_ID/text-summarization/cloud-run/frontend:latest',
+            '.']
+
+timeout: 5800s
+tags: ['latest']
+images: [ 'eu.gcr.io/$PROJECT_ID/text-summarization/cloud-run/frontend' ]

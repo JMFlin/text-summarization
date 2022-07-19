@@ -1,0 +1,37 @@
+[
+    {
+        "name": "ID",
+        "type": "STRING",
+        "mode": "REQUIRED"
+    },
+    {
+        "name": "INPUT_TEXT",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "OUTPUT_TEXT",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "IMAGE_FILE_LOCATION",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "SOURCE_LANGUAGE",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "TARGET_LANGUAGE",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "INSERT_TIME",
+        "type": "TIMESTAMP",
+        "mode": "REQUIRED"
+    }
+]

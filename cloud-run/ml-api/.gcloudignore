@@ -1,0 +1,6 @@
+__pycache__/*
+app/pegasus-xsum/.git/*
+app/pegasus-xsum/.gitattributes
+app/pegasus-xsum/README.md
+app/pegasus-xsum/tf_model.h5
+app/pegasus-xsum/tf_weights_dict.pkl
