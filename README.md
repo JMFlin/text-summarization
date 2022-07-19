@@ -7,3 +7,5 @@ Streamlit frontend that takes an image with text and summarizes the text for the
 
 ### TODO
 Frontend deployment to either Cloud Run or App Engine. Both with IAP.
+
+Small text-summarization model for Cloud Run or host it on a VM.
